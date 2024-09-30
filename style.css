@@ -1,0 +1,138 @@
+*, html {
+    padding: 0%;
+    margin: 0%;
+}
+
+body{
+    background-image: url(image/download.jpg);
+    opacity: 5;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+
+}
+
+.container-navbar {
+    background-color: #a3612b;
+
+}
+
+.ul-navbar {
+    list-style-type: none;
+    background-color: rgb(228, 183, 22);
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+    font-weight: 800; 
+}
+
+.li-navbar {
+    padding: 9px;
+    margin: 70px;
+    border: 1px solid black;
+    border-radius: 9px;
+    font-weight: 800px;
+}
+
+.li-navbar:hover {
+    background-color: rgb(190, 115, 17);
+    transition: .3 ease-in-out;
+    transition-delay: .4s;
+    transition-timing-function: .4 ease-out;
+    transform: scale(1.1);
+
+}
+
+.login-bar {
+    width: 100;
+
+
+}
+
+.LOGIN {
+    color: #302202;
+    font-size: 20px;
+
+}
+ 
+.content-navbar {
+    padding: 20px;
+    background-color: #f7f7f7;
+    width: 400px;
+    margin: 80px auto;
+    border-radius: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 13px 15px 0px -1px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 13px 15px 0px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 13px 15px 0px -1px rgba(0,0,0,0.75);
+}
+
+.content-navbar:hover {
+    background-color: #e9bd5c;
+    transition: .8s ease-in;
+    transition-delay: .4s;
+    transition: .7s ease-out;
+    transform: scale(1.1);
+ 
+}
+
+.a-navbar {
+    color:rgb(41, 28, 23);
+    text-decoration: none;
+}
+
+.img-navbar {
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    border-radius: 40px;
+}
+
+.div-foter {
+    position: absolute;
+            padding: 10px 10px 0px 10px;
+            bottom: 0;
+            width: 100%;
+            height: 40px;
+            background: rgb(32, 130, 32);
+            color: white;
+            justify-content: center;
+            align-items: center;
+            display: flex;
+
+
+
+}
+
+p {
+    margin: 10px;
+    font-size: 20px;
+}
+
+.contact {
+    
+    justify-content: center;
+    color: antiquewhite;
+    font-size: 20px;
+
+}
+
+p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
